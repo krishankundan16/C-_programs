@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+	float cp,sp,amount;
+printf("Enter the cost price\n");
+scanf("%f",&cp);
+printf("Enter the selling price");
+scanf("%f",&sp);
+if(sp>cp)
+{
+amount=sp-cp;
+printf("profit=0.2%f\n",amount);
+}
+else if(cp>sp)
+{
+amount=cp-sp;
+printf("loss=0.2%f\n",amount);
+}
+else{
+printf("no profit no loss");
+}
+}
+
+
