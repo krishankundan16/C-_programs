@@ -10,5 +10,5 @@ int main()
 			cnt++;
 		n>>=1;
 	}
-	printf("cnt:%d\n",n);
+	printf("Setbits = %d\n",cnt);
 }
